@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YungBLK/portfolio.git"
+  },
+  "author": "YungBLK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YungBLK/portfolio/issues"
+  },
+  "homepage": "https://github.com/YungBLK/portfolio#readme"
+}

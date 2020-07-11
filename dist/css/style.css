@@ -7,6 +7,63 @@
     src: url("/fonts/Roboto/Roboto-Regular.ttf");
 }
 
+._tsmin {
+    font-size: 0.5rem;
+  }
+  ._ts0 {
+    font-size: 0.69444rem;
+  }
+  ._ts1 {
+    font-size: 0.83333rem;
+  }
+  ._ts15 {
+    font-size: 15px;
+  }
+  ._ts2 {
+    font-size: 1rem;
+  }
+  ._ts3 {
+    font-size: 1.2rem;
+  }
+  ._ts4 {
+    font-size: 1.44rem;
+  }
+  ._ts5 {
+    font-size: 1.728rem;
+  }
+  ._ts6 {
+    font-size: 2.0736rem;
+  }
+  .ts67 {
+    font-size: 2.125rem;
+  }
+  ._ts7 {
+    font-size: 2.48832rem;
+  }
+  ._ts8 {
+    font-size: 2.98598rem;
+  }
+  ._ts9 {
+    font-size: 3.58318rem;
+  }
+  ._ts10 {
+    font-size: 4.29982rem;
+  }
+  ._ts39 {
+    font-size: 2.4375rem;
+  }
+
+  .introArticle{
+
+  }
+    .mask{
+        position: absolute;
+        width: 100%;
+        background-color: black;
+        opacity: .5;
+        top: 0;
+        left: 0;
+    }
 body {
     margin: 0;
     font-family: robotoRegular;
@@ -19,7 +76,16 @@ body {
 .text-primary-color {
     color: #2a2b2b;
 }
-
+#intro{
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+    padding-bottom: 2.3rem;
+    padding-top: 3rem;
+}
+.background{
+    
+    
+}
 a {
     color: #2a2b2b;
     text-decoration: none;
@@ -54,11 +120,17 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
+.container-fluid{
+    width: 100%;
+}
 
 .bg-gray {
     background-color: #ebebeb;
 }
 #header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
     box-shadow: 0px 10px 21px #b5b5b5;
 }
 #header .logoWrapper {
